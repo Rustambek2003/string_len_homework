@@ -13,7 +13,7 @@ def main(s1,s2,s3):
     b = len(s2)
     c = len(s3)
     if a % 2 != 0:
-        s += ','+s1
+        s += s1
     if b % 2 != 0:
         s += ','+s2
     if c % 2 != 0:
