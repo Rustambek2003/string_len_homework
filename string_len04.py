@@ -10,4 +10,5 @@ def main(s):
         string
     """
     a = len(s)
-    return '*'*a
+    ans = "*"*a
+    return ans
