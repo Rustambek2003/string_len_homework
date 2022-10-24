@@ -11,8 +11,10 @@ def main(s):
     ans = ''
     n = len(s)
     if n%2 != 0:
-        ans += s[s//2]
+        ans += s[len(s)//2]
     else:
-        ans += s[(s//2)-1:s//2+1]
+        ans+= s[(len(s)//2)-1:len(s)//2+1]
+    
 
     return ans
+print(main('1446'))
