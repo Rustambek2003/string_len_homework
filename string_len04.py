@@ -1,3 +1,6 @@
+from re import S
+
+
 def main(s):
     """
     A string variable s is given. Return the "*" sign that is equal to the length of this variable.
@@ -6,4 +9,5 @@ def main(s):
     Returns:
         string
     """
-    return
+    a = len(s)
+    return '*'*a
