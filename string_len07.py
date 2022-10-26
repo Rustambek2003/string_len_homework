@@ -8,15 +8,22 @@ def main(s1,s2,s3):
     Returns:
         string
     """
-    s=''
     a = len(s1)
     b = len(s2)
     c = len(s3)
     if a % 2 != 0:
-        s += s1
+        s1 = s1 + ", "
+    else:
+        s1 = ""
     if b % 2 != 0:
-        s += ','+s2
+        s2 = s2 + ', '
+    else:
+        s2 = ""
     if c % 2 != 0:
-        s += ','+s3
+        s3 = s3
+    else:
+        s3 = ''
+    ans = '['+s1+s2+s3+']'
 
-    return s
+    return ans
+print(main('11','225','333'))
